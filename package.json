@@ -1,21 +1,13 @@
 {
   "name": "cdk-lambda-versioning-sample",
   "version": "0.1.0",
-  "bin": {
-    "cdk-lambda-versioning-sample": "bin/cdk-lambda-versioning-sample.js"
-  },
-  "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
-  },
+  "scripts": {},
   "devDependencies": {
-    "@types/jest": "^29.5.5",
+    "@types/aws-lambda": "^8.10.124",
     "@types/node": "20.7.1",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.1",
     "aws-cdk": "2.101.1",
+    "esbuild": "^0.19.5",
+    "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
     "typescript": "~5.2.2"
   },
